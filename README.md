@@ -1,4 +1,4 @@
-<img src="OneStep2.png" width="100">
+<img src="Onstep2.png" width="100">
 # One Step at a Time
 Data, Statistics, Football, Science, Python in none particular order.
 - - -
