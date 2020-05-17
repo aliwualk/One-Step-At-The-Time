@@ -10,4 +10,4 @@ The start of a series of diferent subjects, this first project will cover the jo
 # Practice Exercices in Jasp and Python
 JASP Practice Statistics : https://jasp-stats.org
 
-[1.	RELATIONSHIP TESTING
+1.	RELATIONSHIP TESTING
