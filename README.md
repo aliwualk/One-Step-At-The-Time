@@ -1,3 +1,4 @@
+![Drawing][image=onestep2.png]
 # One Step at a Time
 Data, Statistics, Football, Science, Python in none particular order.
 - - -
