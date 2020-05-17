@@ -1,4 +1,4 @@
-![](Onestep2.png)
+![](Onstep2.png)
 # One Step at a Time
 Data, Statistics, Football, Science, Python in none particular order.
 - - -
