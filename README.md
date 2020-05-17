@@ -1,7 +1,7 @@
 # One Step At The Time
 
 Data, Statistics, Football, Science, Python in none particular order.
-![drawing](One%20step%202.png)
+![](One%20step%202.png =100x20)
 # Practice Exercices in Jasp and Python
 JASP Practice Statistics : https://jasp-stats.org
 
