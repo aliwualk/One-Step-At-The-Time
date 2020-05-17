@@ -1,7 +1,6 @@
 # One Step At The Time
-
 Data, Statistics, Football, Science, Python in none particular order.
-<img src="One%20step%202.png" alt="drawing" width="200"/>
+The start of a series of diferent subjects, this first project will cover the journey to recreate an exercice in JASP and Python, creating the code to do similar test and create graphics to ilustrate it.<img src="One%20step%202.png" alt="drawing" width="200"/>
 # Practice Exercices in Jasp and Python
 JASP Practice Statistics : https://jasp-stats.org
 
