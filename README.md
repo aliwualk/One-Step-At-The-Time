@@ -1,4 +1,4 @@
-# One Step At The Time
+# One Step at a Time
 Data, Statistics, Football, Science, Python in none particular order.
 - - -
 The start of a series of diferent subjects:
