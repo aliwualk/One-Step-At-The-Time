@@ -12,6 +12,6 @@ The start of a series of diferent subjects, this first project will cover the jo
 <img src="jasp.jpg" alt="drawing" width="250"/>
 
 # Practice Exercices in Jasp and Python
-JASP Practice Statistics : https://jasp-stats.org
+JASP Practice Statistics : [https://jasp-stats.org]
 
 1.	RELATIONSHIP TESTING
