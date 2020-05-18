@@ -53,4 +53,4 @@ ___
 ---
 ##### JASP Descriptive Results
 
-<img src="/images/Jaspdescriptive1.png" alt="drawing" width="350"/>
+<img src="https://github.com/aliwualk/One-Step-at-a-Time/blob/master/images/Jaspdescriptive1.png" alt="drawing" width="350"/>
