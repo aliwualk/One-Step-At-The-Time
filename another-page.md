@@ -3,12 +3,6 @@ layout: default
 title: exercise 1
 ---
 
-## Welcome to another page
-
-_yay_
-
-[back](./)
-
 # Practice Exercices in Jasp and Python
 
 JASP Practice Statistics : https://jasp-stats.org. 
