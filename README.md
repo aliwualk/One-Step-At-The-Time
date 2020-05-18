@@ -6,7 +6,7 @@ Data, Statistics, Football, Science, Python in no particular order.
 
 The start of a series of diferent subjects, this first project will cover the journey to recreate an exercice in JASP and Python. Creating the code to do similar test and create graphics to ilustrate it.
 
-<img src="./images/Onstep2.png" alt="drawing" width="350"/>
+![image](./images/Onstep2.png)
 
 ## Table of Contents. 
 
