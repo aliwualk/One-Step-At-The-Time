@@ -24,3 +24,33 @@ Do heavier athletes have larger maximums in the bench press?
 NULL Hypothesis, H0:
 
 EXPERIMENTAL Hypothesis, H1:
+
+---
+First thing to do before to work on JASP is to create a .CSV file.  
+
+*NB: The table needs to be arraged different. However, the function in excel (Paste Special) 'Transpose' helps.
+
+---
+
+```Python
+import pandas as pd
+
+tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
+
+tabla_df
+
+```
+___
+| Athlete: | Bench press (kg) | Weight (kg) |
+|----------|------------------|-------------|
+| A        | 127.52           | 64.36       |
+| B        | 169.62           | 69.58       |
+| C        | 226.2            | 70.1        |
+| D        | 143.91           | 71.48       |
+| E        | 169.73           | 76.53       |
+| F        | 177.36           | 70.98       |
+| G        | 183.51           | 72.47       |
+-
+##### JASP Descriptive Results
+-
+![](image="/images/Jaspdescriptive1.jpg)
