@@ -84,7 +84,7 @@ Now we read the file from the csv file.
 
 ---
 
-From Pandas module we use the fucntion describe():
+***From Pandas module we use the fucntion describe():***
 - describe() Function gives the mean, std and IQR values. 
 It excludes character column and calculate summary statistics only for numeric columns. 
 
