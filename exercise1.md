@@ -50,7 +50,7 @@ ___
 | E        | 169.73           | 76.53       |
 | F        | 177.36           | 70.98       |
 | G        | 183.51           | 72.47       |
--
+---
 ##### JASP Descriptive Results
--
-![](image="/images/Jaspdescriptive1.jpg)
+
+<img src="/images/Jaspdescriptive1.png" alt="drawing" width="350"/>
