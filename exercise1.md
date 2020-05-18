@@ -53,7 +53,7 @@ Now we read the file from the csv file.
 
 ```Python
     import pandas as pd
-    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
+    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
     tabla_df
 
 ```
@@ -91,7 +91,8 @@ It excludes character column and calculate summary statistics only for numeric c
 ---
 
 ```Python
-    import panda as pd
+    import pandas as pd
+    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
     tabla_df.describe()
 ```
 
