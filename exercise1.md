@@ -40,7 +40,7 @@ tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
 tabla_df
 
 ```
-___
+---
 | Athlete: | Bench press (kg) | Weight (kg) |
 |----------|------------------|-------------|
 | A        | 127.52           | 64.36       |
