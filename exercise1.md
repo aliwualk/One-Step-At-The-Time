@@ -2,7 +2,7 @@
 layout: default
 title: exercise 1
 ---
-
+### [<BACK](/index.md)
 # Practice Exercises in Jasp and Python
 
 JASP Practice Statistics : https://jasp-stats.org
