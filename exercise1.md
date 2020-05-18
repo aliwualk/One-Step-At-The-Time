@@ -32,13 +32,29 @@ First thing to do before to work on JASP is to create a .CSV file.
 
 ---
 
+However, there is a funtion in Python that also do this:
 
 ```Python
-import pandas as pd
+    import numpy as np 
+    df_transposed = df.transpose()
+    df_transposed
+```
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
+---
 
-tabla_df
+|     Athlete:     |    A   |    B   |    C   |    D   |    E   |    F   |    G   |
+|:----------------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+| Bench press (kg) | 127.52 | 169.62 | 226.20 | 143.91 | 169.73 | 177.36 | 183.51 |
+|    Weight (kg)   |  64.36 |  69.58 |  70.10 |  71.48 |  76.53 |  70.98 |  72.47 |
+
+---
+
+Now we read the file from the csv file.
+
+```Python
+    import pandas as pd
+    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
+    tabla_df
 
 ```
 
