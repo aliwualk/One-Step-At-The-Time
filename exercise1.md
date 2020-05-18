@@ -74,9 +74,8 @@ Now we read the file from the csv file.
 
 ---
 
->Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
+*Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
 
-
->
 ![image](/images/Jaspdescriptive1.png)
->
+
+---
