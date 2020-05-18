@@ -1,4 +1,6 @@
+---
 layout: default
+title: exercise 1
 ---
 
 ## Welcome to another page
