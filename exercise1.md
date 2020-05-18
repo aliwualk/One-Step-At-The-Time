@@ -95,3 +95,17 @@ It excludes character column and calculate summary statistics only for numeric c
     tabla_df.describe()
 ```
 
+---
+
+| Bench press (kg) | Weight (kg) | Weight (kg) |
+|------------------|-------------|:-----------:|
+| count            | 7.000000    | 7.000000    |
+| mean             | 171.121429  | 70.785714   |
+| std              | 31.283069   | 3.641592    |
+| min              | 127.520000  | 64.360000   |
+| 25%              | 156.765000  | 69.840000   |
+| 50%              | 169.730000  | 70.980000   |
+| 75%              | 180.435000  | 71.975000   |
+| max              | 226.200000  | 76.530000   |
+
+---
