@@ -41,6 +41,7 @@ tabla_df
 
 ```
 ---
+---
 
 | Athlete: | Bench press (kg) | Weight (kg) |
 |----------|------------------|-------------|
@@ -52,6 +53,7 @@ tabla_df
 | F        | 177.36           | 70.98       |
 | G        | 183.51           | 72.47       |
 
+---
 ---
 ##### JASP Descriptive Results
 
