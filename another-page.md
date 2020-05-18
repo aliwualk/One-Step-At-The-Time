@@ -3,7 +3,7 @@ layout: default
 title: exercise 1
 ---
 
-# Practice Exercices in Jasp and Python
+# Practice Exercises in Jasp and Python
 
 JASP Practice Statistics : https://jasp-stats.org. 
 
