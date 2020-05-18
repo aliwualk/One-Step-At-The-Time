@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Introduction
-category : Intro
+title: introduction
+category : intro
 ---
 
 # [One Step at a Time](https://aliwualk.github.io/One-Step-at-a-Time)
