@@ -35,8 +35,9 @@ First thing to do before to work on JASP is to create a .CSV file.
 However, there is a funtion in Python that also do this:
 
 ```Python
-    import numpy as np 
-    df_transposed = df.transpose()
+    import pandas as pd
+    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
+    df_transposed = tabla_df.transpose()
     df_transposed
 ```
 
@@ -55,7 +56,6 @@ Now we read the file from the csv file.
     import pandas as pd
     tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
     tabla_df
-
 ```
 
 ---
