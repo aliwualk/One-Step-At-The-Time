@@ -56,8 +56,7 @@ tabla_df
 |     G    |      183.51      |    72.47    |
 
 
->
-
+---
 #### JASP Descriptive Results:
 
 
