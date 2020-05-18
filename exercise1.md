@@ -36,9 +36,10 @@ However, there is a funtion in Python that also do this:
 
 ```Python
     import pandas as pd
-    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)
+    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
     df_transposed = tabla_df.transpose()
     df_transposed
+    # if you want to write the new file use: df_transposed.to_csv('jasp_practice_2.csv')
 ```
 
 ---
