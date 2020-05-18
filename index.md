@@ -16,3 +16,9 @@ The start of a series of diferent subjects, this first project will cover the jo
 JASP Practice Statistics : [https://jasp-stats.org]
 
 1.	[RELATIONSHIP TESTING](https://aliwualk.github.io/One-Step-at-a-Time/another-page.md)
+
+<a href="another-page.md" onclick="window.open('another-page.md', '_self');">
+
+  another-page.md
+
+</a>
