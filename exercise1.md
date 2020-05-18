@@ -1,6 +1,8 @@
 ---
 layout: default
-title: exercise 1
+title: JASP Practice Statistics
+category : relationship testing
+subcategory: correlation Example 1
 ---
 ### [<BACK](/index.md)
 # Practice Exercises in Jasp and Python
