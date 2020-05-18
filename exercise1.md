@@ -5,7 +5,7 @@ title: exercise 1
 
 # Practice Exercises in Jasp and Python
 
-JASP Practice Statistics : https://jasp-stats.org. 
+JASP Practice Statistics : https://jasp-stats.org
 
     1.	RELATIONSHIP TESTING
     
