@@ -81,7 +81,7 @@ Now we read the file from the csv file.
 
 ---
 
-![image](/images/Jaspdescriptive1.png)
+![image](./assets/Jaspdescriptive1.png)
 
 ---
 
