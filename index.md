@@ -12,9 +12,3 @@ The start of a series of different subjects, this first project will cover the j
 
 # Practice Exercises in Jasp and Python
 JASP Practice Statistics : [https://jasp-stats.org]
-
-## Table of Contents. 
-
-JASP & Python Ecercices:
-
-1.	[RELATIONSHIP TESTING](/exercise1.md)
