@@ -12,3 +12,6 @@ The start of a series of different subjects, this first project will cover the j
 
 # Practice Exercises in Jasp and Python
 JASP Practice Statistics : [https://jasp-stats.org]
+
+
+[NEXT>](/index.md)
