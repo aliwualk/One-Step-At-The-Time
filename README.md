@@ -8,6 +8,19 @@ The start of a series of diferent subjects, this first project will cover the jo
 
 ![image](./assets/Onstep2.png)
 
+
 [NEXT>](/index.md)
+
+---
+
+## Table of Contents. 
+
+---
+
+JASP & Python Ecercices:
+
+1.	[RELATIONSHIP TESTING](/exercise1.md)
+
+
 
 
