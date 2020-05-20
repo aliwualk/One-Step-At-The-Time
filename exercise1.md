@@ -37,7 +37,7 @@ However, there is a funtion in Python that also do this:
 ```Python
 import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
+tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your file
 df_transposed = tabla_df.transpose()
 print(df_transposed)
 # if you want to write the new file use: df_transposed.to_csv('jasp_practice_2.csv')
@@ -58,7 +58,7 @@ Now we read the file from the csv file.
 ```Python
 import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
+tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your file
 print(tabla_df)
 ```
 
@@ -97,7 +97,7 @@ It excludes character column and calculate summary statistics only for numeric c
 ```Python
 import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0)# use the path of your file
+tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")# use the path of your file
 tabla_df.describe()
 ```
 
