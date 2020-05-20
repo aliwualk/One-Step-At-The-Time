@@ -47,7 +47,7 @@ print(df_transposed)
 
 ---
 
-#### We can see now the new csv file like we need to enter in the JSP program before starts
+*We can see now the new csv file like we need to enter in the JSP program before starts*
 
 ---
 
@@ -76,7 +76,7 @@ print(tabla_df)
 
 ---
 
-##### Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
+<h6>Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
 
 ---
 
@@ -218,10 +218,10 @@ scipy.stats.linregress(xy)
 ---
 ##### We have completed the linear regression and gotten the following results:
 
-.slope: the slope of the regression line
-.intercept: the intercept of the regression line
-.pvalue: the p-value
-.stderr: the standard error of the estimated gradient
+.slope: the slope of the regression line. 
+.intercept: the intercept of the regression line. 
+.pvalue: the p-value. 
+.stderr: the standard error of the estimated gradient. 
 
 ---
 
