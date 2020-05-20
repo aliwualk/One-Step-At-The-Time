@@ -6,12 +6,9 @@ subcategory: [correlation, JASP, Statistics]
 ---
 ### [<BACK](/index.md)
 
-    python
+
+```Python
     from .models import ToDoList, Item
-# from forms import CreateNewList
-
-
-# Create your views here.
 
 
 def index(response, id):
@@ -21,6 +18,8 @@ def index(response, id):
 
 def home(response):
     return render(response, "main/home.html", {}
+ ```
+
     
     
 
