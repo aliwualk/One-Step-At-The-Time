@@ -46,15 +46,17 @@ print(df_transposed)
 ```
 
 ---
+
 We can see now the new csv file like we need to enter in the JSP program before starts
+
 ---
 
 
 ```Python
-import pandas as pd
+    import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
-print(tabla_df)
+    tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
+    print(tabla_df)
 ```
 
 
