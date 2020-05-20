@@ -8,4 +8,4 @@ subcategory: [correlation, JASP, Statistics]
 
 
 
-### [NEXTt>](/_posts/2020-05-20-post1.md)
+### [NEXT>](/_posts/2020-05-20-post1.md)
