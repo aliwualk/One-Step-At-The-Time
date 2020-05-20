@@ -147,7 +147,23 @@ print(desc.round(2))
 
 ---
 
+***We use in JASP the Correlation Test (under Regression) add the varibles: Bench Press and Weight and in the options the sample Correlation Coefficient Pearson's, in Alt. Hypotesis, we selected correlated and in scatter plots: statistics.
 
+---
+
+| Pearson's Correlations               |   |    |   |              |   |              |   |        |
+|--------------------------------------|---|----|---|--------------|---|--------------|---|--------|
+|                                      |   |    |   |              |   | Pearson's r  |   |   p    |
+| Bench press (kg)                     |   | -  |   | Weight (kg)  |   |       0.350  |   | 0.441  |
+|                                      |   |    |   |              |   |              |   |        |
+| * p < .05, ** p < .01, *** p < .001  |   |    |   |              |   |              |   |        |
+
+
+  
+  
+  
+  
+  
 
 
 ### [NEXT>](/exercise2.md)
