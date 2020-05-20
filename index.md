@@ -14,4 +14,4 @@ The start of a series of different subjects, this first project will cover the j
 JASP Practice Statistics : [https://jasp-stats.org]
 
 
-[NEXT>](/index.md)
+1.	[RELATIONSHIP TESTING](/exercise1.md)
