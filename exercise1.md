@@ -36,7 +36,7 @@ First thing to do before to work on JASP is to create a .CSV file.
 ---
 
 
-```Python
+```python
     import pandas as pd
 
     tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your file
@@ -52,7 +52,7 @@ First thing to do before to work on JASP is to create a .CSV file.
 ---
 
 
-```Python
+```python
     import pandas as pd
 
     tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
@@ -91,7 +91,7 @@ It excludes character column and calculate summary statistics only for numeric c
 ---
 
 
-```Python
+```python
     import pandas as pd
 
     tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")# use the path of your file
@@ -119,7 +119,7 @@ Another way to find out the perceptiles in Python:
 
 ---
 
-```Python
+```python
 import pandas as pd
 from pandas import DataFrame
 tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")
