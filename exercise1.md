@@ -54,7 +54,7 @@ import pandas as pd
 
 tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
 print(tabla_df)
-``
+```
 
 ---
 
