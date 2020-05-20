@@ -22,10 +22,10 @@ return render(response, "main/home.html", {}
  
 
 
-
-
-
-#{% include sharing.html %}
+<pre><code>{% raw  %}
+{% include sharing.html %}
+{% endraw %}
+</code></pre>
 
 
 ### [NEXT>](/_posts/2020-05-20-post1.md)
