@@ -190,13 +190,13 @@ print("The p-value is %s" %p)
 ```
 
 --- 
+>The correlation coefficient is 0.35025274183848293
 
-The correlation coefficient is 0.35025274183848293
-The p-value is 0.4411834879597137
+>The p-value is 0.4411834879597137
 
-**Note that these functions return objects that contain two values:**
-
+###Note that these functions return objects that contain two values:**
 ---
+
 ####With another Python code:
 
 ```python
@@ -213,11 +213,10 @@ scipy.stats.linregress(xy)
 
 ---
 
-LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalue=0.35025274183848304, pvalue=0.44118348795971346, stderr=0.04876146520448534)
+>LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalue=0.35025274183848304, pvalue=0.44118348795971346, stderr=0.04876146520448534)
 
 ---
-
-We have completed the linear regression and gotten the following results:
+##### We have completed the linear regression and gotten the following results:
 
 .slope: the slope of the regression line
 .intercept: the intercept of the regression line
