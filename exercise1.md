@@ -52,9 +52,9 @@ We can see now the new csv file like we need to enter in the JSP program before 
 ```Python
 import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your file
+tabla_df = pd.read_csv('jasp_practice_1.csv', index_col=0) # use the path of your file
 print(tabla_df)
-```
+``
 
 ---
 
@@ -93,6 +93,7 @@ import pandas as pd
 
 tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")# use the path of your file
 tabla_df.describe()
+# You could use the funtion round(tabla_df,3) to display ony 3 decimals
 ```
 
 ---
@@ -110,7 +111,21 @@ tabla_df.describe()
 
 ---
 
+Another way to find out the perceptiles in Python:
 
+---
+
+
+```Python
+import pandas as pd
+from pandas import DataFrame
+tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")
+df = DataFrame(tabla_df)
+perc =[.20, .40, .60, .80] 
+include =[ 'float', 'int'] 
+desc = tabla_df.describe(percentiles = perc, include = include) 
+print(desc.round(2))
+```
 
 
 
