@@ -217,5 +217,13 @@ LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalu
 
 ---
 
+We have completed the linear regression and gotten the following results:
+
+.slope: the slope of the regression line
+.intercept: the intercept of the regression line
+.pvalue: the p-value
+.stderr: the standard error of the estimated gradient
+
+---
 
 ### [NEXT>](/exercise2.md)
