@@ -164,8 +164,41 @@ print(desc.round(2))
   
 --- 
   
-  
-  
+***From scipy.stats.pearsonr(x, y) we have an explanation of the module and function          [source]
+Calculates a Pearson correlation coefficient and the p-value for testing non-correlation.
 
+The Pearson correlation coefficient measures the linear relationship between two datasets. Strictly speaking, Pearson’s correlation requires that each dataset be normally distributed. Like other correlation coefficients, this one varies between -1 and +1 with 0 implying no correlation. Correlations of -1 or +1 imply an exact linear relationship. Positive correlations imply that as x increases, so does y. Negative correlations imply that as x increases, y decreases.
+
+The p-value roughly indicates the probability of an uncorrelated system producing datasets that have a Pearson correlation at least as extreme as the one computed from these datasets. The p-values are not entirely reliable but are probably reasonable for datasets larger than 500 or so.
+
+--- 
+
+Pearson's correlation coefficient = covariance(X, Y) / (stdv(X) * stdv(Y))
+
+---
+
+```python
+import pandas as pd
+import scipy
+from scipy.stats import pearsonr
+
+tabla1_df = pd.read_csv('jasp_practice_1.csv', sep=",")
+
+data1 = tabla1_df['Bench press (kg)']
+data2 = tabla1_df['Weight (kg)']
+
+corr, pval = scipy.stats.pearsonr(data1, data2)
+print("The correlation coefficient is %s" %corr)
+print("The p-value is %s" %pval)
+```
+
+--- 
+
+The correlation coefficient is 0.35025274183848293
+The p-value is 0.4411834879597137
+
+**Note that these functions return objects that contain two values:**
+
+---
 
 ### [NEXT>](/exercise2.md)
