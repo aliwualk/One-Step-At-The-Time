@@ -20,8 +20,11 @@ def home(response):
 return render(response, "main/home.html", {}
  ```
  
- {% include sharing.html %}
+---
 
+{% include sharing.html %}
+
+---
     
     
 
