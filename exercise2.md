@@ -20,16 +20,12 @@ def home(response):
 return render(response, "main/home.html", {}
  ```
  
----
-
-{% include sharing.html %}
-
----
-    
-    
 
 
 
+
+
+#{% include sharing.html %}
 
 
 ### [NEXT>](/_posts/2020-05-20-post1.md)
