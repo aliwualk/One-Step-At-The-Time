@@ -111,3 +111,12 @@ It excludes character column and calculate summary statistics only for numeric c
 | max              | 226.200000  | 76.530000   |
 
 ---
+
+
+
+
+
+
+
+
+###[NEXT>](/exercise2.md)
