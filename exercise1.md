@@ -115,7 +115,6 @@ Another way to find out the perceptiles in Python:
 
 ---
 
-
 ```Python
 import pandas as pd
 from pandas import DataFrame
@@ -127,7 +126,22 @@ desc = tabla_df.describe(percentiles = perc, include = include)
 print(desc.round(2))
 ```
 
+---
 
+|       | Bench press (kg) | Weight (kg) |
+|-------|------------------|-------------|
+| count | 7.00             | 7.00        |
+| mean  | 171.12           | 70.79       |
+| std   | 31.28            | 3.64        |
+| min   | 127.52           | 64.36       |
+| 20%   | 149.05           | 69.68       |
+| 40%   | 169.66           | 70.45       |
+| 50%   | 169.73           | 70.98       |
+| 60%   | 174.31           | 71.28       |
+| 80%   | 182.28           | 72.27       |
+| max   | 226.20           | 76.53       |
+
+---
 
 
 
