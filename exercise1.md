@@ -37,12 +37,12 @@ First thing to do before to work on JASP is to create a .CSV file.
 
 
 ```Python
-import pandas as pd
+    import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your file
-df_transposed = tabla_df.transpose()
-print(df_transposed)
-# if you want to write the new file use: df_transposed.to_csv('jasp_practice_2.csv')
+    tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your file
+    df_transposed = tabla_df.transpose()
+    print(df_transposed)
+    # if you want to write the new file use: df_transposed.to_csv('jasp_practice_2.csv')
 ```
 
 ---
@@ -92,11 +92,11 @@ It excludes character column and calculate summary statistics only for numeric c
 
 
 ```Python
-import pandas as pd
+    import pandas as pd
 
-tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")# use the path of your file
-tabla_df.describe()
-# You could use the funtion round(tabla_df,3) to display ony 3 decimals
+    tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")# use the path of your file
+    tabla_df.describe()
+    # You could use the funtion round(tabla_df,3) to display ony 3 decimals
 ```
 
 
