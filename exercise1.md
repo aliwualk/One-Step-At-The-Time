@@ -76,7 +76,7 @@ print(tabla_df)
 
 ---
 
-<h6>Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
+#### Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
 
 ---
 
@@ -84,7 +84,7 @@ print(tabla_df)
 
 ---
 
-***From Pandas module we use the fucntion describe():***
+From Pandas module we use the fucntion describe():
 - describe() Function gives the mean, std and IQR values. 
 It excludes character column and calculate summary statistics only for numeric columns. 
 
@@ -115,7 +115,7 @@ tabla_df.describe()
 
 ---
 
-Another way to find out the perceptiles in Python:
+#### Another way to find out the perceptiles in Python:
 
 ---
 
@@ -147,7 +147,7 @@ print(desc.round(2))
 
 ---
 
-***We use in JASP the Correlation Test (under Regression) add the varibles: Bench Press and Weight and in the options the sample Correlation Coefficient Pearson's, in Alt. Hypotesis, we selected correlated and in scatter plots: statistics.
+#### We use in JASP the Correlation Test (under Regression) add the varibles: Bench Press and Weight and in the options the sample Correlation Coefficient Pearson's, in Alt. Hypotesis, we selected correlated and in scatter plots: statistics
 
 ---
 
@@ -190,14 +190,15 @@ print("The p-value is %s" %p)
 ```
 
 --- 
->The correlation coefficient is 0.35025274183848293
 
->The p-value is 0.4411834879597137
+The correlation coefficient is 0.35025274183848293
 
-###Note that these functions return objects that contain two values:**
+The p-value is 0.4411834879597137
+
+#### Note that these functions return objects that contain two values:
 ---
 
-####With another Python code:
+#### With another Python code:
 
 ```python
 import pandas as pd
@@ -213,15 +214,15 @@ scipy.stats.linregress(xy)
 
 ---
 
->LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalue=0.35025274183848304, pvalue=0.44118348795971346, stderr=0.04876146520448534)
+LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalue=0.35025274183848304, pvalue=0.44118348795971346, stderr=0.04876146520448534)
 
 ---
 ##### We have completed the linear regression and gotten the following results:
 
-.slope: the slope of the regression line. 
-.intercept: the intercept of the regression line. 
-.pvalue: the p-value. 
-.stderr: the standard error of the estimated gradient. 
+    .slope: the slope of the regression line. 
+    .intercept: the intercept of the regression line. 
+    .pvalue: the p-value. 
+    .stderr: the standard error of the estimated gradient. 
 
 ---
 
