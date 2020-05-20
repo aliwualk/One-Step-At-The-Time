@@ -28,11 +28,12 @@ EXPERIMENTAL Hypothesis, H1:
 ---
 First thing to do before to work on JASP is to create a .CSV file.  
 
-*NB: The table needs to be arraged different. However, the function in excel (Paste Special) 'Transpose' helps.
+*NB: The table needs to be arraged different.
+. For every athlete in the table you need to make an entry for the 2 varibles.
+. The function in excel (Paste Special) 'Transpose' helps.
+. And there is a function in Python that also do the transpose function.
 
 ---
-
-However, there is a funtion in Python that also do this:
 
 ```Python
 import pandas as pd
@@ -46,7 +47,7 @@ print(df_transposed)
 
 ---
 
-Now we read the file from the csv file.
+We can see now the new csv file like we need to enter in the JSP program before starts.
 
 ```Python
 import pandas as pd
