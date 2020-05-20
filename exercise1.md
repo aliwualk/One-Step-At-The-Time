@@ -35,6 +35,7 @@ First thing to do before to work on JASP is to create a .CSV file.
 
 ---
 
+
 ```Python
 import pandas as pd
 
@@ -42,7 +43,6 @@ tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",") # use the path of your fi
 df_transposed = tabla_df.transpose()
 print(df_transposed)
 # if you want to write the new file use: df_transposed.to_csv('jasp_practice_2.csv')
-    
 ```
 
 ---
@@ -90,6 +90,7 @@ It excludes character column and calculate summary statistics only for numeric c
 
 ---
 
+
 ```Python
 import pandas as pd
 
@@ -97,6 +98,7 @@ tabla_df = pd.read_csv('jasp_practice_1.csv', sep=",")# use the path of your fil
 tabla_df.describe()
 # You could use the funtion round(tabla_df,3) to display ony 3 decimals
 ```
+
 
 ---
 
@@ -131,17 +133,17 @@ print(desc.round(2))
 ---
 
 |       | Bench press (kg) | Weight (kg) |
-|-------|------------------|-------------|
-| count | 7.00             | 7.00        |
-| mean  | 171.12           | 70.79       |
-| std   | 31.28            | 3.64        |
-| min   | 127.52           | 64.36       |
-| 20%   | 149.05           | 69.68       |
-| 40%   | 169.66           | 70.45       |
-| 50%   | 169.73           | 70.98       |
-| 60%   | 174.31           | 71.28       |
-| 80%   | 182.28           | 72.27       |
-| max   | 226.20           | 76.53       |
+|------:|-----------------:|------------:|
+| count |             7.00 |        7.00 |
+|  mean |           171.12 |       70.79 |
+|   std |            31.28 |        3.64 |
+|   min |           127.52 |       64.36 |
+|   20% |           149.05 |       69.68 |
+|   40% |           169.66 |       70.45 |
+|   50% |           169.73 |       70.98 |
+|   60% |           174.31 |       71.28 |
+|   80% |           182.28 |       72.27 |
+|   max |           226.20 |       76.53 |
 
 ---
 
