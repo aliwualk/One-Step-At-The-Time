@@ -46,8 +46,8 @@ print(df_transposed)
 ```
 
 ---
-
 We can see now the new csv file like we need to enter in the JSP program before starts.
+---
 
 ```Python
 import pandas as pd
@@ -72,9 +72,7 @@ print(tabla_df)
 
 ---
 
-
 ##### Once we upload the file in JASP, we select the 'Descriptives' option and then Descriptive Statistics 
-
 
 ---
 
