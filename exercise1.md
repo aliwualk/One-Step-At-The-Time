@@ -158,10 +158,11 @@ print(desc.round(2))
 |                                      |   |    |   |              |   |              |   |        |
 | * p < .05, ** p < .01, *** p < .001  |   |    |   |              |   |              |   |        |
 
+---
 
-![image](.assests/Jaspplot1.png)
+![image](./assets/Jaspplot1.png)
   
-  
+--- 
   
   
   
