@@ -228,7 +228,35 @@ LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalu
 
 # Visualization of Correlation
 
-Now we look at the data visulization in JASP from the correlation test
+Now we look at the data visulization in python from the correlation test
+
+---
+
+```python
+import scipy.stats
+import matplotlib.pyplot as plt
+import pandas as pd
+plt.style.use('ggplot')
+
+tabla1_df = pd.read_csv('jasp_practice_1.csv', sep=",")
+data1 = tabla1_df['Bench press (kg)']
+data2 = tabla1_df['Weight (kg)']
+slope, intercept, r, p, stderr = scipy.stats.linregress(data1, data2)
+
+line = f'Regression line: y={intercept:.2f}+{slope:.2f}x, r={r:.2f}'
+
+fig, ax = plt.subplots()
+ax.plot(data1, data2, linewidth=0, marker='s', label='Data points')
+ax.plot(data1, intercept + slope * data1, label=line)
+ax.set_xlabel('x')
+ax.set_ylabel('y')
+ax.legend(facecolor='white')
+plt.show()
+```
+
+---
+
+![image](./assets/myplot1.png)
 
 ---
 
