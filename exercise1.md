@@ -226,4 +226,11 @@ LinregressResult(slope=0.040772142291379175, intercept=63.808727050895925, rvalu
 
 ---
 
+# Visualization of Correlation
+
+Now we look at the data visulization in JASP from the correlation test
+
+---
+
+
 ### [NEXT>](/exercise2.md)
