@@ -260,5 +260,20 @@ plt.show()
 
 ---
 
+## ANSWER:
 
+Correlation Example 1
+
+H0: Maximum bench press is not related to the weight of the athlete.
+
+H1: Maximum bench press increases with the weight of the athlete.
+
+Pearson’s correlation:
+There was no significant relationship between the athlete’s weight and his/her maximum bench press, r (5) = .35, p (two-tailed) = .44.
+
+---
+
+#### Once we have gone step by step creating the test in Python, the idea is create a programme to calculate the correlation test entering a cvs file or data.
+
+---
 ### [NEXT>](/exercise2.md)
