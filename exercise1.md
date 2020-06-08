@@ -269,7 +269,7 @@ H0: Maximum bench press is not related to the weight of the athlete.
 H1: Maximum bench press increases with the weight of the athlete.
 
 Pearson’s correlation:
-There was no significant relationship between the athlete’s weight and his/her maximum bench press, r (5) = .35, p (two-tailed) = .44.
+The null hypotesis (H0) is accepted. There was no significant relationship between the athlete’s weight and his/her maximum bench press, r (5) = .35, p (two-tailed) = .44.
 
 ---
 
