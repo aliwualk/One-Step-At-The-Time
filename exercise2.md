@@ -4,7 +4,7 @@ title: JASP Practice Statistics
 category : [relationship, testing]
 subcategory: [correlation, JASP, Statistics]
 ---
-### [<BACK](/index.md)
+### [<BACK](/exercise2.md)
 
 
 
